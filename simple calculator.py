@@ -6,14 +6,14 @@ if choice in ['1', '2', '3', '4']:
         num2 = int(input("Enter second number: "))
 
         if choice == '1':
-            print(f"{"sum"} = {num1 + num2}")
+            print(f"sum = {num1 + num2}")
         elif choice == '2':
-            print(f"{"Sub"} = {num1 - num2}")
+            print(f"Sub = {num1 - num2}")
         elif choice == '3':
-            print(f"{"Mult"} = {num1 * num2}")
+            print(f"Mult = {num1 * num2}")
         elif choice == '4':
             if num2 != 0:
-                print(f"{"Div"} = {num1 / num2}")
+                print(f"DIV = {num1 / num2}")
             else:
                 print("Error: Division by zero is not allowed.")
 else:
